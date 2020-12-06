@@ -101,11 +101,3 @@ for item in replace_newline:
                 correct_id_counter += 1
 
 print("Result part 2: " + str(correct_id_counter))
-
-# credential_dict = {"eyr": "1972", "cid": "100", "hcl": "#18171d", "ecl": "amb", "hgt": "170", "pid": "186cm", "iyr": "2018", "byr": "1926"}
-
-# credential_dict = {"iyr": "2019", "hcl": "#602927", "eyr": "1967", "hgt": "170cm", "ecl": "grn", "pid": "012533040", "byr": "1946"}
-
-# credential_dict = {"hcl":"dab227", "iyr":"2012", "ecl":"brn", "hgt":"182cm", "pid":"021572410", "eyr":"2020", "byr":"1992", "cid":"277"}
-
-#credential_dict = {"hgt":"165cm", "ecl":"blu", "eyr":"2025", "hcl":"#74454a", "iyr":"20", "pid":"355641237", "byr":"2001"}
