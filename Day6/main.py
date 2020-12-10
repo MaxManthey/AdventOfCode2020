@@ -16,7 +16,6 @@ print("Result part 1: " + str(result_one))
 
 
 result_two = 0
-
 for group in groups:
     person = group.split("\n")
     group_sets = []
