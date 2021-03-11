@@ -38,10 +38,9 @@ def number_game2(numbers, wanted_number):
         else:
             spoken_numbers[last_number_spoken] = turns
             last_number_spoken = 0
-        # print(spoken_numbers)
         turns += 1
     return last_number_spoken
 
-print("Result part 1: " + str(number_game2(inputar, 2020)))
+print("Result part 1: " + str(number_game(inputar, 2020)))
 print("Result part 2: " + str(number_game2(inputar, 30000000)))
 
